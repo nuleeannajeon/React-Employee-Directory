@@ -3,26 +3,16 @@ import Navbar from "./components/Navbar";
 import Search from "./components/Search";
 import Table from "./components/Table";
 import Footer from "./components/Footer";
-import API from "./utils/API"
 
 function App(){
-  console.log( `Lets start the app`)
-
-  async function getRandomUsers() {
-    try {
-      const response = await API.search();
-      console.log(response);
-    } catch (error) {
-      console.error(error);
-    }
-  }
-
-  useEffect( ()=>{
-    getRandomUsers()
-  }, [])
+  console.log( `Lets start the app`);
 
   return(
     <div>
+      <Navbar />
+      <Search />
+      <Table />
+      <Footer />
     </div>
   );
 }
