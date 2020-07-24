@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useState, useEffect} from "react";
+import Navbar from "./components/Navbar";
+import Search from "./components/Search";
+import Table from "./components/Table";
+import Footer from "./components/Footer";
+import API from "./utils/API"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+function App(){
+  console.log( `Lets start the app`)
+
+  async function getRandomUsers() {
+    try {
+      const response = await API.search();
+      console.log(response);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
+  useEffect( ()=>{
+    getRandomUsers()
+  }, [])
+
+  return(
+    <div>
     </div>
   );
 }
+
 
 export default App;
