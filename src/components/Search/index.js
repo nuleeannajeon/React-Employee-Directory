@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Table from "../Table"
 
 function Search(){
     console.log( `This is Search!`);
