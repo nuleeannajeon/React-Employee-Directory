@@ -1,55 +1,32 @@
-# React-Employee-Directory
+# React: Employee-Directory
 
-# Unit 19 React Homework: Employee Directory
+## Description
 
-## Overview
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name. This application will have users to be able to view the entire employee directory at once so that they have quick access to their information. 
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+## Demo
+### Heroku Application
+[Click Here to checkout a deployed application](https://obscure-taiga-20697.herokuapp.com/)
+### Screenshots
+![Budget-Trackeer](assets/employee-directory.png)
 
-## User Story
+## Intruction
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+- Once the application is loaded, random users list will populated including the information such as an image, name, phone numbers, email, and date of birth.
+- To sort the list in an alphabetical order, click on each categories `Name`, `Phone`, `Email`, and `Age`.
+- To filter lists by letters of Name, enter letters into input box.  
 
-## Business Context
+## Usage
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+Given a table of random users, when the user loads the page, a table of employees should render. Users then will be able to sort the table by at least one category alphabetically, and filter names by inputed letters.
 
-## Acceptance Criteria
+## License
+![License](https://img.shields.io/badge/License-MIT%20License-blue)
+- **[MIT License](https://opensource.org/licenses/MIT)** 
+- 2020 React Employee Directory
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
-
-The user should be able to:
-
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* the URL to the deployed application
-
-* the URL to the Github repository
-
+## Questions
+| Ask me Now! |
+| :---: |
+| ![alt text](https://avatars0.githubusercontent.com/u/65268642?s=400&u=bd568c7596e7f6c9585caeb89e88b084e56c21f9&v=4 "Github Profile Picture") |
+| <a href="https://github.com/nuleeannajeon" target="_blank">Checkout Github Profile</a> |
